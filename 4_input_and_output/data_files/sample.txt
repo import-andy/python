@@ -1,0 +1,3 @@
+Hello, everyone!
+Very happy to meet you all!
+Good luck studying Python!

@@ -1,0 +1,2 @@
+"r+" mode sets the coursor to the beginning of the file + allows to read a file
+"a+" also allows to write, but points the coursor to the end + allows to read a file
