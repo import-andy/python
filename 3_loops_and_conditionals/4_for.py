@@ -6,15 +6,15 @@
 # I prefer to construct loops in reverse order (from actions to be looped to the condition)
 
 # the 'for' loop executes a suite of code for each element:
-for elem in range(5):
+for elem in range(5):  # not including last element, 5
     print(elem, end = ' ')      # end: string appended after the last value, default a newline.
 print()                         # causes newline
 
-for elem in range(1, 6):
+for elem in range(1, 6):  # 1 to 5, bot including 6
     print(elem, end = ' ')
 print()
 
-for elem in range(5, -1, -1):
+for elem in range(5, -1, -1):  # 5 to 0, third number is step
     print('Countdown:', elem)
 print()
 
@@ -73,7 +73,7 @@ print()
 # Nested 'for':
 for outer in range(2, 10):
     for inner in range (2, outer):    # even will not execute the first value - from 2 to 2, not including
-        if not outer % inner:         # will execute if remainder is '0'
+        if not outer % inner:         # will execute if divides without remainder
             print(outer, '=', inner, '*', int(outer/inner))
             break                     # exhaust the second 'for' loop
     else:

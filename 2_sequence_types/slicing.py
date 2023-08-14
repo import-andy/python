@@ -44,10 +44,10 @@ print('bytearray_ref is a_bytearray', bytearray_ref is a_bytearray)
 print('bytearray_copy is a_bytearray', bytearray_copy is a_bytearray)
 
 # steps - additional third parameter (or it's called argument?):
-print('a_list[::2] =', a_list[::2])
-print('a_listt[1:5:2] =', a_list[1:5:2])        # from 1 to 5 (not including), every second element
-print('a_string[::-1] =', a_string[::-1]) # reverses all elements
-print('a_string[5:1:-1] =', a_string[5:1:-1])   # start if star stop, but step is negative
+print('a_list[::2] =', a_list[::2])  # [:] or [::] means all list. Two colons means the third digit (step) will be added
+print('a_listt[1:5:2] =', a_list[1:5:2])  # from 1 to 5 (not including), every second element
+print('a_string[::-1] =', a_string[::-1])  # reverses all elements
+print('a_string[5:1:-1] =', a_string[5:1:-1])  # start if star stop, but step is negative
 print()
 
 # use additional slices to access sequences within sequences:
