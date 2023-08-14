@@ -15,8 +15,10 @@ result = cube_of(10)
 print('cube_of(10) =', result)
 print()
 
+
 def fn(x):                         # Usual functions
     return
+
 
 a = type(fn)                       # Both of them are of 'function' class
 print('type(fn) =', a)
@@ -29,11 +31,12 @@ print('cube_of =', cube_of)        # ... and lambda is 'function lambda'
 print()
 
 
-# lambda fuctions for calculator:
+# lambda functions for calculator:
 add = lambda x, y: x + y
 sub = lambda x, y: x - y
 mul = lambda x, y: x * y
 div = lambda x, y: x / y
+
 
 def calculate(x, y, operation = 'add'):
     if operation == 'add':
@@ -44,6 +47,7 @@ def calculate(x, y, operation = 'add'):
         return mul(x, y)
     if operation == 'div':
         return div(x, y)
+
 
 a = calculate(5, 5)
 print('calculate(5, 5) =', a)

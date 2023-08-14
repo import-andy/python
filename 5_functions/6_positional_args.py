@@ -17,6 +17,7 @@
 def introduction(name, city):                            # Input args
     print('Hello, my name is', name, 'I\'m from', city)
 
+
 introduction('Andrii', 'Odesa')                          # Positional arguments, by giving them in a srtict order
 
 # Let's have fun and biuld a calculator:
