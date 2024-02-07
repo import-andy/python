@@ -1,2 +1,2 @@
 # python
-python basics - my notes on learning python
+Andy learning Python
