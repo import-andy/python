@@ -1,3 +1,3 @@
-a = 'ar'
-b = 'ar'
-print(a is b)
+import os
+
+print(os.environ["PATH"])

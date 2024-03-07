@@ -32,7 +32,7 @@ print('dict_syn =', dict_syn)
 print()
 
 # nesting:
-dict_nested = {'Laptop' : [20, 31, 90, 43], 'Car' : [12, 12.4, 16.4, 18.8], 'House' : [1200, 234, 'arabel']}
+dict_nested = {'Laptop': [20, 31, 90, 43], 'Car': [12, 12.4, 16.4, 18.8], 'House': [1200, 234, 'arabel']}
 print('dict_nested =', dict_nested)
 print("dict_nested['Car'][2] =", dict_nested['Car'][2])
 dict_nested['Car'][2] = 16.7          # lists inside dicts may be updates (as any other values)
